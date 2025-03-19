@@ -1,4 +1,8 @@
+Autor: Daniel Rodríguez Tato
+
 ## Examen de Test Unitarios
+
+
 
 ---
 
@@ -13,5 +17,7 @@ Con el código de este repositorio realiza:
 Entrega tu repositorio con el código y los test. Además un `Readme` explicando y justificando cada apartado
 
 Formato del `Readme` *1 punto*
+
+
 
 ---
