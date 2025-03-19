@@ -57,7 +57,9 @@ class MainTest {
             "00000019, L",
             "00000020, C",
             "00000021, K",
-            "00000022, E"
+            "00000022, E",
+            "00000022, e",
+            "00000021, k",
     })
     void calcularLetraDNI(String dni, char expected) {
         assertEquals(expected, Main.calcularLetraDNI(dni));

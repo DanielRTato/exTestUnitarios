@@ -16,6 +16,7 @@ Crear test para ambas funciones donde especialmente comprobamos las situaciones 
 El error está en la función `comprobarDNI()` que no valida la longitud del String. 
 Después, cuando `calcularLetraDNI()` hace el cálculo, si el resto de dividir el DNI entre 23 coincide con la letra, lo da todo por válido. Por ejemplo: `"0001, R"`.
 Una posible solución sería añadir una validacíon a la función `comprobarDni()` que comprueba que la longitud del String sea exactamente 8 y que no contiene caracteres que no sean letras.
+Tampoco acepta las letras en mínuscula, para arreglar eso podríamos usar `Character.toUpperCase` para convertir todas las letras en mayusculas.
 
 ## Ejercicio 3: Comprobación de la longitud del DNI
 
